@@ -1,0 +1,283 @@
+html, body {
+  width: 100%;
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+body {
+    background-color: white;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+  overflow-x: hidden;
+    
+} 
+
+.landingPage{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+    overflow-x: hidden;
+}
+
+
+.hiG{
+    color: whitesmoke;
+    margin-bottom: 3rem;
+   
+}
+
+.firstLine{
+    margin: 4px;
+    padding: 3rem;
+    flex: auto;
+    
+}
+.hf{
+    font-size: 500%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900px;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+.secondSide{
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+}
+
+.buyFirst{
+    display: block;
+    margin: auto;
+}
+
+.secondSlide{
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+    overflow-x: hidden;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.7);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border: 4rem;
+    padding: 1rem;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card Button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #00A1C9;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+ 
+  
+  
+  #myTutton {
+  outline: 0;
+  padding: 14px 40px;
+  color: black;
+  background-color: #f1f5f7;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 25px;
+  float: left;
+  width: 50%;
+  margin-bottom: 55px;
+  padding-bottom: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.7);
+  }
+
+
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .payment{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: none ;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.7);
+  }
+
+  .payTitle{
+    font-size: 30px;
+    color: rgb(111, 145, 150);
+  }
+
+  .payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid;
+  }
+
+  .payInput::placeholder{
+    color: rgb(231, 226, 226);
+  }
+
+  .cardIcons{
+    display: flex;
+  }
+
+  .cardIcon{
+    margin-right: 10px;
+  }
+
+  .cardInfo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sm{
+    width: 30%;
+  }
+  .payButton{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    background-color: green;
+    box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.7);
+    color: white;
+    border: none;
+  }
+
+.finalImage{
+  position: relative;
+  text-align: justify;
+  color: white;
+  background-color: black;
+  padding: 4rem;
+  overflow-x: hidden;
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  margin-top: 7rem;
+  right: 16px;
+}
+.finalImage button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #00A1C9;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.page-footer{
+  color: aliceblue;
+}
+
+.callUs{
+  text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.myClose {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mailBtn {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #00A1C9;
+  text-align: center;
+  cursor: pointer;
+  width: 12%;
+  font-size: 18px;
+
+  
+}
+
+
+
+
+/* .column {
+    float: left;
+    width: 50%;
+  } */
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
+}
+
